@@ -1,0 +1,253 @@
+/ * Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.light-blue {
+    background-color: rgb(0, 138, 255) !important;
+}
+
+.light-blue-text {
+    color: rgb(0, 138, 255) !important;
+}
+
+.dark-blue {
+    background-color: rgb(49, 78, 97) !important;
+}
+
+.dark-blue-text {
+    color: rgb(49, 78, 97) !important;
+}
+
+#logo-container {
+    height: 100%;    
+}
+
+#logo {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+p, ol#rules {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container.small-parallax {
+    min-height: 190px;
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+
+    #index-banner .section {
+        top: 0;
+    }
+
+    #logo {
+        margin-left: -75px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .row.four-column .col.m3 {
+        width: 50%;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+
+    .row.four-column .col.m3 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1.header > img {
+        zoom: 0.7;
+        margin-top: 20px;
+    }
+}
+
+.full {
+    width: 40%;
+}
+
+.half {
+    width: 40%;
+}
+
+.prize {
+    width: 80%;
+}
+
+@media only screen and (min-width: 1500px) {
+    .prize-container {
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
+    .prize-container {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .prize-container {
+        height: 100%;
+    }
+}
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+.black-border {
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+
+.white-border {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.dark {
+    color: #000000;
+}
+
+.blurred {
+    -webkit-filter: blur(3px);
+}
+
+.header:before {
+    content: ' ';
+    display: block;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background: #607d8b;
+}
+
+.header img{
+    transform: translate(0%, 5%);
+}
+.transluscent {
+    opacity: 0.4;
+}
+
+.error {
+    background: #ef5350;
+    text-align: center;
+    padding: 10px;
+    z-index: 1338;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    width: auto;
+    height: auto;
+    opacity: 0.8;
+    border-radius: 10px;
+    transform: translate(-50%, 0%);
+}
+
+.info {
+    background: #eeff41;
+    text-align: center;
+    padding: 10px;
+    z-index: 1338;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    width: auto;
+    height: auto;
+    opacity: 0.8;
+    border-radius: 10px;
+    transform: translate(-50%, 0%);
+}
+
+.success {
+    background: #00e676;
+    text-align: center;
+    padding: 10px;
+    z-index: 1338;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    width: auto;
+    height: auto;
+    opacity: 0.8;
+    border-radius: 10px;
+    transform: translate(-50%, 0%);
+}
+
+.active {
+    background: #546e7a;
+}
+
+.input-field label {
+    background: transparent;
+    color: #607d8b;
+}
+nav {
+    position: fixed;
+    z-index: 1337;
+}
+
+h1 {
+    margin-bottom: -0.5rem;
+}
+
+h1 > img.mid-logo {
+    width: 100%;
+    max-width: 600px;
+}

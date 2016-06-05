@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+        <title>TJCTF 2016</title>
+        <meta name="application-name" content="TJCTF 2016" />
+        <meta name="msapplication-tooltip" content="TJCTF 2016" />
+        <meta name="description" content="A Capture the Flag cybersecurity competition for high school students run by the TJHSST Computer Security Club." />
+        <meta name="keywords" content="TJCTF, TJHSST Cybersecurity, TJ CSC, TJ Computer Security Club, TJ CTF, TJ Capture the flag, High school CTF, HS capture the flag" />
+        <meta name="author" content="TJ Computer Security Club" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-title" content="TJCTF 2016" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-starturl" content="/" />
+        <meta name="theme-color" content="#008AFF" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="og:title" content="TJCTF 2016" />
+        <meta name="og:site_name" content="TJCTF 2016" />
+        <meta name="og:description" content="A Capture the Flag Cybersecurity competition run by the TJHSST Computer Security Club." />
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="http://127.0.0.1:9020/static/favicon/apple-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="http://127.0.0.1:9020/static/favicon/apple-icon-60x60.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="http://127.0.0.1:9020/static/favicon/apple-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="http://127.0.0.1:9020/static/favicon/apple-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="http://127.0.0.1:9020/static/favicon/apple-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="http://127.0.0.1:9020/static/favicon/apple-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="http://127.0.0.1:9020/static/favicon/apple-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="http://127.0.0.1:9020/static/favicon/apple-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="http://127.0.0.1:9020/static/favicon/apple-icon-180x180.png" />
+        <meta name="google–site–verification" content="TvxVkAmZCB5v4w5o5drVXOMok9xzoMeIowoIpifyln" />
+        <link rel="icon" type="image/png" sizes="192x192" href="http://127.0.0.1:9020/static/favicon/android-icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="http://127.0.0.1:9020/static/favicon/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="http://127.0.0.1:9020/static/favicon/favicon-16x16.png" />
+        <link rel="shortcut icon" type="image/png" href="static/favicon/favicon-32x32.png" />
+        <link rel="manifest" href="http://127.0.0.1:9020/static/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/static/favicon/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- CSS  -->
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link href="static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+        <link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+        
+    </head>
+
+    <body>
+        
+        
+
+        
+        <header>
+        <nav class="light-blue" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="index.html#top" class="brand-logo">
+                <img src="static/logo-thin-white-header.png" id="logo" alt="TJCTF" title="TJCTF" />
+            </a>
+            <ul class="right light-blue hide-on-med-and-down">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#rules">Rules</a></li>
+                <li><a href="index.html#prep">Prep</a></li>
+                <li><a href="index.html#prizes">Prizes</a></li>
+                <li><a href="index.html#sponsors">Sponsors</a></li>
+                <li><a href="http://compete.tjctf.org/chat/">Chat</a></li>
+                <li><a href="http://compete.tjctf.org/login/">Login</a></li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#rules">Rules</a></li>
+                <li><a href="index.html#prep">Prep</a></li>
+                <li><a href="index.html#prizes">Prizes</a></li>
+                <li><a href="index.html#sponsors">Sponsors</a></li>
+                <li><a href="http://compete.tjctf.org/chat/">Chat</a></li>
+                <li><a href="http://compete.tjctf.org/login/">Login</a></li>
+            </ul>
+            <a href="index.html#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a>
+        </div>
+        </nav>
+        <div id="index-banner" class="parallax-container">
+            <div class="section no-pad-bot" id="top">
+                <div class="container">
+                    <br>
+                    <br>
+                    
+<h1 class="header center grey-text text-darken-4">
+    <img src="static/logo_600x200.png" alt="TJCTF" class="mid-logo" />
+</h1>
+<div class="row center" style="margin-top: -2rem;margin-bottom: 0.5rem">
+    <h5 class="header col s12 grey-text text-darken-4">
+        May 27&ndash;30, 2016
+        <div style="margin-top: 0.75rem">
+            <p>9PM&ndash;9PM EDT</p>
+        </div>
+        <p style="margin-bottom: 0">The competition is over! Thank you for playing!</p>
+    </h5>
+</div>
+<div class="row center">
+    <a href="https://github.com/TJCSec/tjctf-1516-released" id="register-now" class="btn-large waves-effect waves-light light-blue">View Problems</a>
+</div>
+<div class="parallax blurred transluscent"><img src="static/dome.png" alt="TJHSST Dome"></div>
+
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="parallax header">
+
+            </div>
+        </div>
+        </header>
+        <main>
+        
+<div class="section faq">
+    <!--   FAQ   -->
+    <div class="row four-column">
+        <div class="col s12 m3">
+            <div class="icon-block">
+                <h2 class="center black-text"><i class="material-icons light-blue-text">description</i></h2>
+                <h5 class="center grey-text text-darken-4">What is TJCTF?</h5>
+                <p class="light grey-text text-darken-2">TJCTF is an online cybersecurity competition designed for high school students. Challenges will span various difficulty levels, so there will be problems for students who are new to computer science as well as those who are computer security experts.</p>
+                <p class="light light-blue-text"><a href="index.html#about">About &rarr;</a></p>
+            </div>
+        </div>
+        <div class="col s12 m3">
+            <div class="icon-block">
+                <h2 class="center black-text"><i class="material-icons light-blue-text">people</i></h2>
+                <h5 class="center grey-text text-darken-4">How do I register?</h5>
+                <p class="light grey-text text-darken-2"><strong>Registration is now closed. To create a team, please email ctf@tjhsst.edu. Note: Response to team creation requests may take some time. </strong>TJCTF is open to all eligible High School students (tl;dr Americans, but if you have questions read the rules). You can compete in teams consisting of up to 5 members. Teams who do not fit these criteria may play, but are not eligible for prizes.</p>
+            </div>
+        </div>
+        <div class="col s12 m3">
+            <div class="icon-block">
+                <h2 class="center black-text"><i class="material-icons light-blue-text">assignment_turned_in</i></h2>
+                <h5 class="center grey-text text-darken-4">How does it work?</h5>
+                <p class="light grey-text text-darken-2">Simple. Your team is given 3 days to solve as many challenges as possible, by finding a string called the "flag" after solving a puzzle. You'll know when you've found it. Each flag you find earns you points.</p>
+                <p class="light light-blue-text"><a href="index.html#rules">Competition Rules &rarr;</a></p>
+            </div>
+        </div>
+        <div class="col s12 m3">
+            <div class="icon-block">
+                <h2 class="center black-text"><i class="material-icons light-blue-text">code</i></h2>
+                <h5 class="center grey-text text-darken-4">How do I prepare?</h5>
+                <p class="light grey-text text-darken-2">TJCTF has challenges for computer science students with all levels of experience, so preparation shouldn't be necessary. If you'd like to brush up on computer security to give your team an edge, we've compiled some helpful materials.</p>
+                <p class="light light-blue-text"><a href="index.html#prep">Preparation Materials &rarr;</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="parallax-container small-parallax valign-wrapper" id="about">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <div class="row center">
+                <h1 class="header col s12 light blue-grey-text text-darken-2">About</h1>
+            </div>
+        </div>
+    </div>
+    <div class="parallax blurred transluscent"><img src="static/dome2.png" alt="TJHSST Dome 2" /></div>
+</div>
+<div class="container">
+    <div class="section">
+        <!--   FAQ   -->
+        <div class="row">
+            <div class="col s12 m12">
+                <div class="icon-block">
+                    <p>TJCTF, the <a href="https://activities.tjhsst.edu/csc/" rel="noopener noreferrer" target="_blank">TJ Computer Security Club's</a> Capture The Flag (CTF) Competition, is an online CTF competition similar to <a href="http://picoctf.org" rel="noopener noreferrer" target="_blank">PicoCTF</a>. It is targeted at high schoolers interested in computer science and cyber security. Each participant will compete on a team of up to 5 people and solve problems ranging from binary exploitation to cryptography. While CTFs are frequently branded as security competitions, the techniques they teach are often useful in many fields of computer science. Anyone who enjoys working with computers and solving challenging puzzles is encouraged to compete. While only American high school students (or younger) are eligible for prizes, anyone can play for fun. Registration is now open on <a href="http://compete.tjctf.org/register/">our registration page</a>, and you can also follow us on <a href="https://twitter.com/tjctf/" rel="noopener noreferrer" target="_blank">Twitter</a> and join the <a href="https://www.facebook.com/TJCaptureTheFlag" rel="noopener noreferrer" target="_blank">Facebook Group</a>. If you have any comments or questions, feel free to contact us at <a href="mailto:ctf@tjhsst.edu" rel="noopener noreferrer" target="_blank">ctf@tjhsst.edu</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="parallax-container small-parallax valign-wrapper" id="rules">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <div class="row center">
+                <h1 class="header col s12 light blue-grey-text text-darken-2">Rules</h1>
+            </div>
+        </div>
+    </div>
+    <div class="parallax blurred transluscent"><img src="static/dome2.png" alt="TJHSST Dome 2" /></div>
+</div>
+<div class="container">
+    <div class="section">
+        <!--   FAQ   -->
+        <div class="row">
+            <div class="col s12 m12">
+                <div class="icon-block">
+                    <h2 class="center black-text"></h2>
+                    <ol id="rules">
+                        <li><strong>No Outside Help.</strong> Using any resource that can be found on the web is fair play, but you may not ask anyone outside of your team for assistance. This includes, but is not limited to the sharing of flags, hints, methodology, or other problem aids. Minor offenders will get a warning, and major offenders will be disqualified.</li>
+                        <li><strong>Only attack platforms that are designated as targets.</strong> Any attack, including DoS, on scoring or other infrastructure will not be tolerated. All attackable services will be clearly marked. We are not responsible for unauthorized attacks, and breaking this rule is grounds for disqualification and possible prosecution by outside organizations.</li>
+                        <li><strong>Competing teams may consist of up to 5 players, each an American citizen or resident, who is either attending high school in the US or 18 years of age or younger.</strong> Verification will be needed for winning teams. All teams must provide an adult contact at their school to vouch for their eligibility. Teams not in compliance with this will still be able to solve problems, but will not be able to win prizes or appear on scoreboards.</li>
+                        <li><strong>Harassing other players through IRC or on social media will not be tolerated.</strong> Players being rude, inflammatory, or vulgar may be quieted or banned at the discretion of the moderators. Giving hints will result in a ban. This is a fun competition, but it is still educational, so appropriate behavior is expected.</li>
+                        <li><strong>Enforcement and interpretation of rules will be at the sole discretion of the TJCTF organizers.</strong> Please see the official agreement for more information, or ask an organizer in IRC for clarification on the rules.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="parallax-container small-parallax valign-wrapper" id="prep">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <div class="row center">
+                <h1 class="header col s12 light blue-grey-text text-darken-2">Prep</h1>
+            </div>
+        </div>
+    </div>
+    <div class="parallax blurred transluscent"><img src="static/dome2.png" alt="TJHSST Dome 2" /></div>
+</div>
+<div class="container">
+    <div class="section">
+        <!--   FAQ   -->
+        <div class="row">
+            <div class="col s12 m12">
+                <div class="icon-block">
+                    <h2 class="center black-text"></h2>
+                    <p>There are a number of ways you can prepare for TJCTF. First and foremost, make sure you have access to a Linux machine. Many of the binaries we will distribute will only run on certain architectures. If you do not already have an installation, you can install a virtual machine using <a href="http://www.vmware.com/products/player">VMware Player</a> or <a href="https://www.virtualbox.org/">Oracle VirtualBox</a>. We recommend installing either good ‘ol <a href="http://www.ubuntu.com/download">Ubuntu</a>, or the more powerful <a href="https://www.kali.org/downloads/">Kali Linux</a>.</p>
+                    <p>Once you have familiarized yourself with these platforms, there are a couple places you can visit for practice. <a href="http://picoctf.org">PicoCTF</a> has two years worth of challenges that you can try by signing up on their site. <a href="http://smashthestack.org/">Smash the Stack</a> is another great platform for practicing, with a variety of challenges for you to try. And, as with any CTF, remember that Google is your best friend.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="parallax-container small-parallax valign-wrapper" id="prizes">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <div class="row center">
+                <h1 class="header col s12 light blue-grey-text text-darken-2">Prizes</h1>
+            </div>
+        </div>
+    </div>
+    <div class="parallax blurred transluscent"><img src="static/dome2.png" alt="TJHSST Dome 2" /></div>
+</div>
+<div class="container">
+    <div class="section">
+        <div class="row">
+            <div class="col s12 m12 l4">
+                    <center>
+                        <div class="prize-container">
+                            <img class="prize" src="static/prizes/first.png" />
+                        </div>
+                        <h5 class="light center"><strong>1st Place</strong><br />Google Chromebooks</h4>
+                    </center>
+            </div>
+            <div class="col s12 m12 l4">
+                    <center>
+                        <div class="prize-container">
+                            <img class="prize" style="margin-top: 50px; margin-left: 20px;" src="static/prizes/second.png" />
+                        </div>
+                        <h5 class="light center"><strong>2nd Place</strong><br />Intel Compute Sticks</h5>
+                    </center>
+            </div>
+            <div class="col s12 m12 l4">
+                <center>
+                        <div class="prize-container">
+                            <img class="full" src="static/prizes/third.png" />
+                        </div>
+                        <h5 class="light center"><strong>3rd Place</strong><br />Pebble Smartwatches</h5>
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="parallax-container small-parallax valign-wrapper" id="sponsors">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <div class="row center">
+                <h1 class="header col s12 light blue-grey-text text-darken-2">Our Sponsors</h1>
+            </div>
+        </div>
+    </div>
+    <div class="parallax blurred transluscent"><img src="static/dome2.png" alt="TJHSST Dome 2" /></div>
+</div>
+<div class="container">
+    <div class="section">
+        <div class="row">
+            <div class="col s12 m12 l12" style="margin-top: 50px;">
+                <a href="http://yext.com/" rel="noopener noreferrer" target="_blank">
+                    <center>
+                        <img src="static/sponsors/yext-logo.png" class="full" />
+                    </center>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <a href="http://github.com/" rel="noopener noreferrer" target="_blank">
+                    <center>
+                        <img src="static/sponsors/github.png" class="full" />
+                    </center>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m12 l6">
+                <center>
+                    <a href="http://corsec.com/" rel="noopener noreferrer" target="_blank">
+                        <img src="static/sponsors/corsec512.png" class="half" />
+                    </a>
+                </center>
+            </div>
+            <div class="col s12 m12 l6" style="margin-top: 25px;">
+                <center>
+                    <a href="http://cgi.com/" rel="noopener noreferrer" target="_blank">
+                        <img src="static/sponsors/cgi.png" class="half" />
+                    </a>
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+
+
+        </main>
+        <footer class="page-footer light-blue">
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; 2016 <a href="index.html" class="white-text">TJCTF</a>
+            </div>
+        </div>
+        </footer>
+
+
+        
+        <!--  Scripts  -->
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="static/js/materialize.js"></script>
+        <script src="static/js/init.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        
+
+        
+    </body>
+
+</html>
